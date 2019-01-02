@@ -1,0 +1,194 @@
+body
+{
+background-image:url('../images/4428389-coffee-wallpapers.jpg');
+background-color:rgba(0,0,0,0.3);
+background-size:cover;
+
+background-repeat:no-repeat
+
+}
+.yo{
+    animation:colorchangehello 1s infinite;
+    font-size:260%;
+    margin-top:20px;
+    color:red;
+}
+body
+{
+font-size:20px;
+overflow-x:hidden;
+font-family: 'Flamenco', cursive;
+}
+
+*{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+}
+.row
+{
+max-width: 1180px;
+margin:0 auto;
+}
+.main-nav li a{
+color:black;
+text-decoration:none;
+text-transform:uppercase;
+font-size:90%;
+font-weight:100;
+padding:5px 0; 
+}
+.menu
+{
+width 100%;
+height 100px;
+background-color:rgba(0,0,0,0.3);
+}
+
+.main-nav
+{
+float:right;
+margin-top:10px;
+}
+.main-nav li
+{display:inline;
+list-style:none;
+margin-left:40px;
+}
+.main-nav li a{
+color:black;
+text-decoration:none;
+text-transform:uppercase;
+font-size:90%;
+font-weight:100;
+padding:5px 0; 
+}
+.clearfix:after{
+content: ".";
+visibility:hidden;
+display:block;
+height:0px;
+clear:both;
+}
+.main-content-header
+{width:1180px;
+position:absolute;
+top:55%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+.text1{
+    animation: types 5s;
+    overflow:hidden;
+white-space: nowrap;
+ }
+@keyframes types {
+    from {
+        width:0;
+    }
+    to {
+        width:368px;
+    }
+}
+h1
+{
+color:black;
+font-size:300%;
+word-spacing:5px;
+letter-spacing:3px;
+margin-botton:20px;
+text-transform:uppercase;
+font-weight:lighter;
+}
+.btn{
+display:inline-block;
+padding:10px 30px;
+font-weight:lighter;
+text-decoration:none;
+border-radius:200px;
+text-transform:uppercase;
+transition:background-color 0.2s,border 0.2s,color 0.2s;
+}
+.btn-full
+{
+background-color:pink;
+color: white;
+margin-right:20px;
+border:1px solid;
+}
+.btn-nav
+{
+background-color:pink;
+color:white;
+border:1px solid white;
+}
+.main-nav li a:hover{
+border-bottom: 2px solid red;
+}
+.btn-full:hover{
+background-color:red;}
+.btn-nav:hover{
+background-color:red;}
+#hello{
+animation: colorchangehello 1s infinite;}
+@keyframes colorchangehello{
+0%{color:red;}
+25%{color:pink;}
+50%{color:purple;}
+100%{color:red;}
+}
+
+@media only screen and (max-width: 1180px){
+   .main-content-header{
+    width:100%;
+     padding:0 2%;
+}
+}
+
+@media only screen and (max-width: 998px){
+ h1{
+ font-size: 200%;}
+}
+
+@media only screen and (max-width: 768px){
+
+ h1{
+ font-size: 180%;
+
+    }
+
+.main-nav{
+    display: none; }
+.mobile-icon{
+display:inline-block;}
+}
+h2{
+           animation: type 4s steps(24) infinite,blink 0.5s infinite alternate; 
+            overflow:hidden;
+            white-space: nowrap;
+            border-right:3px solid #000;
+    font-size:240%;
+        
+        }
+        @keyframes type{
+            from{
+                width:0px;
+                
+            }
+            to{
+                width:40ch;
+            }
+        }
+        @keyframes blink{
+            from{
+                border-color: transparent;
+                
+            }
+            to{
+                border-color: #000;
+            }
+            
+        }
+        
+
+
